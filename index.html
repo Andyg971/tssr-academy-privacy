@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TSSR Academy — Politique de confidentialité / Privacy Policy</title>
+<style>
+  :root { --bg:#f6f7f9; --surface:#fff; --border:#e3e6ea; --fg:#1a1d23; --fg2:#5a6070; --accent:#2563eb; --accent-soft:#eef4ff;
+          --font:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f1117; --surface:#1a1d26; --border:#2a2e3a; --fg:#e8eaf0; --fg2:#9da3b4; --accent:#60a5fa; --accent-soft:#1e293b; color-scheme: dark; }
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:var(--font); background:var(--bg); color:var(--fg); line-height:1.65; padding:40px 20px 80px; }
+  .wrap { max-width:720px; margin:0 auto; }
+  header { text-align:center; }
+  h1 { font-size:1.7rem; font-weight:800; }
+  .tagline { color:var(--fg2); font-size:.95rem; margin-top:4px; }
+  .updated { color:var(--fg2); font-size:.8rem; margin-top:6px; }
+  .toggle { display:flex; gap:6px; justify-content:center; margin:24px 0 32px; }
+  .toggle button { font:inherit; font-weight:600; font-size:.9rem; cursor:pointer; padding:10px 22px; min-height:44px;
+    border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--fg2); }
+  .toggle button[aria-pressed="true"] { background:var(--accent); color:#fff; border-color:var(--accent); }
+  section.lang { display:none; } section.lang.active { display:block; }
+  h2 { font-size:1.15rem; font-weight:700; margin:28px 0 10px; padding-bottom:6px; border-bottom:2px solid var(--accent); }
+  p { margin:8px 0; } ul { margin:8px 0 8px 22px; } li { margin-bottom:5px; }
+  .highlight { background:var(--accent-soft); border:1px solid var(--border); border-radius:12px; padding:16px 20px; margin:16px 0; }
+  .highlight strong { color:var(--accent); }
+  a { color:var(--accent); }
+  footer { margin-top:40px; text-align:center; color:var(--fg2); font-size:.8rem; border-top:1px solid var(--border); padding-top:16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>TSSR Academy</h1>
+    <p class="tagline">Politique de confidentialité · Privacy Policy</p>
+    <p class="updated">Dernière mise à jour / Last updated: 12 octobre 2026 / October 12, 2026</p>
+  </header>
+
+  <div class="toggle" role="group" aria-label="Langue / Language">
+    <button id="btn-fr" aria-pressed="true" onclick="setLang('fr')">🇫🇷 Français</button>
+    <button id="btn-en" aria-pressed="false" onclick="setLang('en')">🇬🇧 English</button>
+  </div>
+
+  <section class="lang active" id="lang-fr">
+    <div class="highlight"><p><strong>En résumé :</strong> TSSR Academy ne collecte <strong>aucune donnée personnelle</strong>. L'application fonctionne hors ligne. Votre progression reste sur votre appareil et, si vous le choisissez, dans votre espace iCloud privé. Aucune publicité, aucun traqueur, aucun compte requis.</p></div>
+    <h2>1. Qui sommes-nous</h2>
+    <p>TSSR Academy est une application de formation éditée par <strong>Andy Grava</strong>. Cette politique explique comment l'application traite vos informations.</p>
+    <h2>2. Données traitées</h2>
+    <p>L'application enregistre, <strong>uniquement sur votre appareil</strong>, les informations nécessaires à votre apprentissage :</p>
+    <ul><li>votre progression dans les cours, quiz et flashcards ;</li><li>vos scores, votre série de jours d'étude et votre temps d'apprentissage ;</li><li>vos favoris et vos notes personnelles ;</li><li>les serveurs SSH que vous ajoutez vous-même (outil facultatif).</li></ul>
+    <p>Ces données ne sont jamais transmises à l'éditeur ni à un tiers.</p>
+    <h2>3. Synchronisation iCloud</h2>
+    <p>Si vous êtes connecté à iCloud, votre progression peut se synchroniser entre vos appareils via la <strong>base privée CloudKit</strong> de votre compte Apple. Ces données sont gérées par Apple, restent privées et ne sont <strong>pas accessibles à l'éditeur</strong>. Vous pouvez désactiver iCloud dans les réglages de votre appareil.</p>
+    <h2>4. Identifiants SSH</h2>
+    <p>Si vous utilisez le client SSH, les mots de passe et clés privées sont stockés de façon sécurisée dans le <strong>Trousseau iOS (Keychain)</strong> de votre appareil. Ils ne quittent jamais l'appareil et ne sont pas lisibles par l'éditeur.</p>
+    <h2>5. Notifications</h2>
+    <p>Avec votre accord, l'application peut envoyer des <strong>rappels locaux</strong> pour vous aider à réviser. Ces notifications sont générées sur votre appareil ; aucune donnée n'est envoyée à un serveur. Vous pouvez les désactiver à tout moment.</p>
+    <h2>6. Ce que nous ne faisons pas</h2>
+    <ul><li>aucune collecte de données personnelles par l'éditeur ;</li><li>aucune publicité et aucun traqueur publicitaire ;</li><li>aucun outil d'analyse tiers ;</li><li>aucun compte, e-mail ou numéro requis ;</li><li>aucune vente ou partage de données.</li></ul>
+    <h2>7. Enfants</h2>
+    <p>L'application convient à tous les publics et ne collecte aucune donnée personnelle, y compris celle des mineurs.</p>
+    <h2>8. Conservation et suppression</h2>
+    <p>Vos données restent sur votre appareil tant que l'application est installée. Vous pouvez <strong>tout effacer</strong> depuis les réglages de l'application (« réinitialiser la progression ») ou en supprimant l'application. Pour les données iCloud, gérez-les depuis les réglages iCloud de votre appareil.</p>
+    <h2>9. Modifications</h2>
+    <p>Cette politique peut être mise à jour. La date de dernière mise à jour figure en haut de page.</p>
+    <h2>10. Contact</h2>
+    <p>Pour toute question : <a href="mailto:contact@tssracademy.com">contact@tssracademy.com</a></p>
+  </section>
+
+  <section class="lang" id="lang-en">
+    <div class="highlight"><p><strong>In short:</strong> TSSR Academy collects <strong>no personal data</strong>. The app works offline. Your progress stays on your device and, if you choose, in your private iCloud. No ads, no trackers, no account required.</p></div>
+    <h2>1. Who we are</h2>
+    <p>TSSR Academy is a training app published by <strong>Andy Grava</strong>. This policy explains how the app handles your information.</p>
+    <h2>2. Data handled</h2>
+    <p>The app stores, <strong>only on your device</strong>, the information needed for your learning:</p>
+    <ul><li>your progress through courses, quizzes and flashcards;</li><li>your scores, study streak and learning time;</li><li>your favorites and personal notes;</li><li>the SSH servers you add yourself (optional tool).</li></ul>
+    <p>This data is never sent to the publisher or any third party.</p>
+    <h2>3. iCloud sync</h2>
+    <p>If you are signed in to iCloud, your progress may sync across your devices through your Apple account's <strong>private CloudKit database</strong>. This data is managed by Apple, stays private, and is <strong>not accessible to the publisher</strong>. You can turn off iCloud in your device settings.</p>
+    <h2>4. SSH credentials</h2>
+    <p>If you use the SSH client, passwords and private keys are stored securely in your device's <strong>iOS Keychain</strong>. They never leave the device and are not readable by the publisher.</p>
+    <h2>5. Notifications</h2>
+    <p>With your consent, the app can send <strong>local reminders</strong> to help you review. These notifications are generated on your device; no data is sent to a server. You can disable them at any time.</p>
+    <h2>6. What we don't do</h2>
+    <ul><li>no collection of personal data by the publisher;</li><li>no ads and no advertising trackers;</li><li>no third-party analytics;</li><li>no account, email or phone number required;</li><li>no sale or sharing of data.</li></ul>
+    <h2>7. Children</h2>
+    <p>The app is suitable for all audiences and collects no personal data, including from minors.</p>
+    <h2>8. Retention and deletion</h2>
+    <p>Your data stays on your device as long as the app is installed. You can <strong>erase everything</strong> from the app settings ("reset progress") or by deleting the app. For iCloud data, manage it from your device's iCloud settings.</p>
+    <h2>9. Changes</h2>
+    <p>This policy may be updated. The last-updated date appears at the top of the page.</p>
+    <h2>10. Contact</h2>
+    <p>For any question: <a href="mailto:contact@tssracademy.com">contact@tssracademy.com</a></p>
+  </section>
+
+  <footer><p>TSSR Academy · com.andygrava.tssr · © 2026 Andy Grava</p></footer>
+</div>
+<script>
+  function setLang(l) {
+    document.documentElement.lang = l;
+    document.getElementById('lang-fr').classList.toggle('active', l === 'fr');
+    document.getElementById('lang-en').classList.toggle('active', l === 'en');
+    document.getElementById('btn-fr').setAttribute('aria-pressed', l === 'fr');
+    document.getElementById('btn-en').setAttribute('aria-pressed', l === 'en');
+    try { localStorage.setItem('tssr-privacy-lang', l); } catch (e) {}
+  }
+  try {
+    var saved = localStorage.getItem('tssr-privacy-lang');
+    if (saved) setLang(saved);
+    else if ((navigator.language || '').toLowerCase().indexOf('en') === 0) setLang('en');
+  } catch (e) {}
+</script>
+</body>
+</html>
